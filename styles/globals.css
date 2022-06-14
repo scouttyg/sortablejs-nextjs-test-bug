@@ -14,3 +14,17 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.sortable-ghost {
+  background-color: #c8ebfb;
+}
+
+.sortable-item {
+  background-color: #CCCCCC;
+  padding: 1rem;
+  border: 1px solid #000000;
+}
+
+.sortable-item.sortable-ghost {
+  background-color: #c8ebfb;
+}
